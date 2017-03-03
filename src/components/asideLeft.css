@@ -1,0 +1,158 @@
+body{
+    width: 100%;
+}
+.asideLeft{
+    height: 1400px;
+    width: 60%;
+}
+    .block3{
+        height: 60%;
+        width: 100%;
+    }
+        .leftBlock{
+            display: flex;
+            height: 50%;
+            width: 40%;
+            float: left;
+            background-image: url(./img/two.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .topBlock{
+            display: flex;
+            height: 25%;
+            width: 60%;
+            float: right;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+            .topLeftBlock{
+                height: 100%;
+                width:50%;
+                float: right;
+                background-image: url(./img/three.jpg);
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+            }
+            .topRightBlock{
+                height: 100%;
+                width: 50%;
+                float: right;
+                background-image: url(./img/four.jpg);
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+            }
+        .downBlock{
+            display: flex;
+            flex-wrap: wrap;
+            height: 25%;
+            width: 60%;
+            float: right;
+        }
+            .downBlock p{
+                height: 15%;
+                width: 70%;
+                margin: 40% 0 0 5% ;
+                color: black;
+                letter-spacing: 3px;
+                font-size:20px;
+                border-bottom: 4px #ef7d6f solid;
+            }
+            .blackbutton{
+            width: 0;
+            height: 0;
+            margin-top:43%;
+            border-top: 5px solid #f8f7f5;
+            border-bottom: 5px solid #f8f7f5;
+            border-left: 5px solid black;
+            }
+        .downBlock2{
+            display: flex;
+            flex-wrap: wrap;
+            height: 24%;
+            width: 100%;
+        }
+            .downBlock2 .firstBlock{
+                display: flex;
+                height: 100%;
+                width: 40%;
+                background-color: white;
+            }
+            .downBlock2 .secondBlock{
+                display: flex;
+                height: 100%;
+                width: 30%;
+                background-image: url(./img/five.jpg);
+                background-size: 100% 100%;
+            }
+            .downBlock2 .thirdBlock{
+                display: flex;
+                height: 100%;
+                width: 30%;
+                background-image: url(./img/six.jpg);
+                background-size: 100% 100%;
+            }
+        .downBlock3{
+            display: flex;
+            flex-wrap: wrap;
+            height: 26%;
+            width: 100%;
+        }
+            .downBlock3 .firstBlock{
+                height: 100%;
+                width: 70%;
+                background-color: #ef7d6f;
+            }
+                .text{
+                    margin: 15% 0 0 25%;
+                    color: white;
+                    font-size: 25px;
+                    width: 50%;
+                    text-align: center;
+                }
+            .downBlock3 .secondBlock{
+                height: 100%;
+                width: 30%;
+                background-image: url(./img/seven.jpg);
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+
+            }
+    .block4{
+        height: 40%;
+        width: 100%;
+    }
+        .block4 .firstBlock{
+            display: flex;
+            flex-wrap: wrap;
+            height: 70%;
+            width: 100%;
+            background-image: url(./img/eight.jpg);
+            background-size: 100% 100%;
+        }
+        .block4 .downBlock4{
+            display: flex;
+            height: 30%;
+            width: 100%;
+        }
+            .block4 .secondBlock{
+                display: flex;
+                height:100%;
+                width: 33.34%;
+                background-color: white;
+                background-size: 100% 100%;
+            }
+            .block4 .thirdBlock{
+                display: flex;
+                height: 100%;
+                width: 33.33%;
+                background-image: url(./img/nine.jpg);
+                background-size: 100% 100%;
+            }
+            .block4 .fourthBlock{
+                display: flex;
+                height: 100%;
+                width: 33.34%;
+                background-image: url(./img/ten.jpg);
+                background-size: 100% 100%;
+            }

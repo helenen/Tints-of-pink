@@ -1,0 +1,82 @@
+.asideRight{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-top: -109%;
+    height: 1403px;
+    width: 40%;
+}
+    .asideRight .topBlock{
+        height: 15.5%;
+        width: 100%;
+        background-color: #ef7d6f;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+        .topBlock p{
+            margin: 50% 0 0 25%;
+            color: white;
+            font-size: 25px;
+            width: 50%;
+            text-align: center;
+        }
+    .asideRight .secondBlock{
+            height: 46%;
+            width: 100%;
+            background-image: url(./img/eleven.jpg);
+            background-size: 100% 100%;
+    }
+    .asideRight .thirdBlock{
+            display: flex;
+            height: 16%;
+            width: 100%;
+    }
+        .asideRight .leftBlock{
+            height: 100%;
+            width: 50%;
+            background-image: url(./img/twelve.jpg);
+            background-size: 100% 100%;
+        }
+        .asideRight .rightBlock{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 50%;
+                    }
+            .asideRight .text{
+                height: 15%;
+                width: 83%;
+                float: right;
+                margin: 10% 0 10% 8%;
+                color: black;
+                font-size: 25px;
+                letter-spacing: 8px;
+                text-align: left;
+                border-bottom: 4px #ef7d6f solid;
+            }
+            .asideRight .text2{
+                height: 15%;
+                width: 50%;
+                float: right;
+                margin: 0% 0 10% 8%;
+                color: black;
+                font-size: 25px;
+                letter-spacing: 8px;
+                text-align: left;
+                border-bottom: 4px #ef7d6f solid;
+            }
+            .asideRight .blackbutton{
+            width: 0;
+            height: 0;
+            float: right;
+            margin: -20% 0 0 60%;
+            border-top: 5px solid #f8f7f5;
+            border-bottom: 5px solid #f8f7f5;
+            border-left: 5px solid black;
+            }
+    .asideRight .fourthBlock{
+        height: 25%;
+        width: 100%;
+        background-image: url(./img/fifteen.jpg);
+        background-size: 100% 100%;
+    }
