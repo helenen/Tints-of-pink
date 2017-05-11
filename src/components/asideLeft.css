@@ -11,7 +11,7 @@ body{
         width: 100%;
     }
         .leftBlock{
-            display: flex;
+            duisplay: flex;
             height: 50%;
             width: 40%;
             float: left;
